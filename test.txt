@@ -1,4 +1,4 @@
-console.log("connected to github");
+console.log("connected to github now");
  $('body').ready(function(){
         
 
